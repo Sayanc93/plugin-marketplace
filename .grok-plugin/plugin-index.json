@@ -1,6 +1,36 @@
 {
   "version": 1,
   "plugins": {
+    "agentmailer": {
+      "sha": "fedbb35f5966ddf4b1ed929a75587fc3b73b0ae9",
+      "version": "0.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentmailer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentmailer-a2a",
+            "description": "Discover AgentMailer identities and communicate directly with other agents through durable tasks, messages, status upda…"
+          },
+          {
+            "name": "agentmailer-email",
+            "description": "Read, search, triage, draft, send, reply to, forward, label, or delete email in an AgentMailer inbox through MCP."
+          },
+          {
+            "name": "agentmailer-inbox",
+            "description": "Create, inspect, update, or deactivate a human-approved AgentMailer identity with a unique @agentmailer.ai address thro…"
+          },
+          {
+            "name": "agentmailer-mcp",
+            "description": "Connect to AgentMailer's hosted MCP server, complete human-approved OAuth, or troubleshoot authentication in Claude Cod…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
