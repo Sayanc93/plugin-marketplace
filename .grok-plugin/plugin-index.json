@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "agentmailer": {
-      "sha": "fedbb35f5966ddf4b1ed929a75587fc3b73b0ae9",
-      "version": "0.2.2",
+      "sha": "8c2541b125224a1f6c6eb9695ebec01d1de2ce97",
+      "version": "0.3.2",
       "components": {
         "mcpServers": [
           {
